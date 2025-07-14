@@ -435,7 +435,7 @@ async function createBlueskyPost(poem, prompt, token) {
         features: [
           {
             $type: "app.bsky.richtext.facet#link",
-            uri: `https://iwannabenadinicoco.com/poem/${token}`,
+            uri: `https://iwannabe.nadinicoco.com/poem/${token}`,
           },
         ],
       },
@@ -530,7 +530,7 @@ async function testPoemAndBluesky() {
         features: [
           {
             $type: "app.bsky.richtext.facet#link",
-            uri: `https://iwannabenadinicoco.com/poem/${testToken}`,
+            uri: `https://iwannabe.nadinicoco.com/poem/${testToken}`,
           },
         ],
       },
